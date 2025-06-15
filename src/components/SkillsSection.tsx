@@ -20,7 +20,7 @@ const SkillsSection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
-            <Card key={index} className="bg-card border border-border/50 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: `${0.1 * index}s` }}>
+            <Card key={index} className="bg-card border border-border/50 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg hover:shadow-primary/10 animate-fade-in-up" style={{ animationDelay: `${0.1 * index}s` }}>
               <CardHeader className="flex flex-row items-center gap-4">
                 <div className="p-3 bg-primary/10 rounded-lg">
                     <skill.icon className="w-6 h-6 text-primary" />
