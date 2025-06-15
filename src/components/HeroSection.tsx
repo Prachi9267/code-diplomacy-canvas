@@ -20,7 +20,7 @@ const HeroSection = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                     <h1 className="text-4xl md:text-6xl font-display font-extrabold text-foreground mb-4">
-                        Hi, I'm a CS Student
+                        Hi, I am a CSAI student
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
                         A second-year Computer Science and AI student passionate about building impactful technology. Currently exploring web development, DSA, and Python.
