@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -20,7 +21,7 @@ const HeroSection = () => {
                 <div className="flex flex-col md:flex-row items-center justify-center gap-12 text-center md:text-left">
                     <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                         <Avatar className="w-48 h-48 md:w-60 md:h-60 border-4 border-primary/20 shadow-lg">
-                            <AvatarImage src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop" alt="Prachi" />
+                            <AvatarImage src="/lovable-uploads/a597d684-6262-4226-872d-b3e5e77f3b8b.png" alt="Prachi" />
                             <AvatarFallback>P</AvatarFallback>
                         </Avatar>
                     </div>
