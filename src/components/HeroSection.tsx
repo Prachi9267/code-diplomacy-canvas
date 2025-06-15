@@ -16,7 +16,7 @@ const HeroSection = () => {
     return (
         <section id="about" className="pt-32 relative overflow-hidden min-h-screen flex items-center justify-center">
             <div className="absolute inset-0 bg-gradient-to-br from-background via-card to-background opacity-50"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent animate-subtle-pulse"></div>
             
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-12 text-center md:text-left">

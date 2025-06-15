@@ -38,7 +38,7 @@ const ProjectsSection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-background border border-border/50 overflow-hidden flex flex-col transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 transform hover:-translate-y-1">
+            <Card key={index} className="bg-background border border-border/50 overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 transform hover:-translate-y-1">
               <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
               <div className="p-6 flex flex-col flex-grow">
                 <CardTitle className="font-display text-2xl mb-2">{project.title}</CardTitle>
