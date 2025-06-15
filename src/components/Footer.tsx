@@ -16,10 +16,10 @@ const Footer = () => {
             </a>
         </div>
         <div className="flex justify-center items-center gap-6 mb-8">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="p-3 bg-background rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="p-3 bg-background rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 transform hover:scale-110">
             <Github className="w-6 h-6" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="p-3 bg-background rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="p-3 bg-background rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300 transform hover:scale-110">
             <Linkedin className="w-6 h-6" />
           </a>
         </div>
