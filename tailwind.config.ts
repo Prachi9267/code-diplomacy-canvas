@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -19,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+      boxShadow: {
+        'glow': '0 0 20px hsl(var(--primary) / 0.35)',
+      },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         display: ['"Plus Jakarta Sans"', 'sans-serif'],

@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
@@ -38,7 +37,7 @@ const ProjectsSection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-background border border-border/50 overflow-hidden flex flex-col transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/20 transform hover:-translate-y-2">
+            <Card key={index} className="bg-card/50 backdrop-blur-md border border-border/50 overflow-hidden flex flex-col transition-all duration-300 hover:border-primary/80 hover:shadow-glow transform hover:-translate-y-2">
               <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
               <div className="p-6 flex flex-col flex-grow">
                 <CardTitle className="font-display text-2xl mb-2">{project.title}</CardTitle>

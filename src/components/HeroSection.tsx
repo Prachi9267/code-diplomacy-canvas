@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -15,7 +14,7 @@ const HeroSection = () => {
     
     return (
         <section id="about" className="pt-32 relative overflow-hidden min-h-screen flex items-center justify-center">
-            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-primary/10 via-background to-primary/20 bg-[length:200%_200%] animate-background-pan"></div>
+            <div className="absolute inset-0 -z-10 bg-gradient-to-r from-primary/10 via-background to-secondary/15 bg-[length:200%_200%] animate-background-pan"></div>
             
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-12 text-center md:text-left">

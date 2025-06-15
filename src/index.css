@@ -5,40 +5,40 @@
 
 @layer base {
   :root {
-    /* Synthwave Dark */
-    --background: 259 53% 8%; /* Deep Purple */
-    --foreground: 259 10% 75%; /* Light Grayish Purple */
+    /* NovaGlow Dark */
+    --background: 240 10% 4%; /* Near Black */
+    --foreground: 240 5% 85%; /* Light Gray */
 
-    --card: 259 53% 12%;
-    --card-foreground: 259 10% 85%;
+    --card: 240 10% 9%;
+    --card-foreground: 240 5% 90%;
 
-    --popover: 259 53% 8%;
-    --popover-foreground: 259 10% 75%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 240 5% 85%;
 
-    --primary: 328 95% 62%; /* Hot Pink */
-    --primary-foreground: 259 53% 8%;
+    --primary: 217 91% 60%; /* Electric Blue */
+    --primary-foreground: 240 10% 4%;
 
-    --secondary: 180 95% 50%; /* Cyan */
-    --secondary-foreground: 259 53% 8%;
+    --secondary: 270 91% 65%; /* Vivid Violet */
+    --secondary-foreground: 240 10% 4%;
 
-    --muted: 259 53% 20%;
-    --muted-foreground: 259 10% 60%;
+    --muted: 240 5% 15%;
+    --muted-foreground: 240 5% 55%;
 
-    --accent: 259 53% 20%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 240 5% 15%;
+    --accent-foreground: 240 5% 95%;
 
-    --destructive: 0 63% 31%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 259 53% 20%;
-    --input: 259 53% 20%;
-    --ring: 328 95% 62%;
+    --border: 240 5% 15%;
+    --input: 240 5% 15%;
+    --ring: 217 91% 60%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    /* Synthwave Light (for contrast) */
+    /* Keeping the original light theme as a fallback, though it's not currently active */
     --background: 0 0% 98%; 
     --foreground: 259 53% 8%;
     
@@ -48,10 +48,10 @@
     --popover: 0 0% 98%;
     --popover-foreground: 259 53% 8%;
 
-    --primary: 280 80% 55%; /* Bright Violet */
+    --primary: 280 80% 55%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 350 90% 60%; /* Bright Pink/Coral */
+    --secondary: 350 90% 60%;
     --secondary-foreground: 259 53% 8%;
 
     --muted: 0 0% 90%;
@@ -79,3 +79,4 @@
     -moz-osx-font-smoothing: grayscale;
   }
 }
+

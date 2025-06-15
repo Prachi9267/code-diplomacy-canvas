@@ -9,7 +9,7 @@ const InterestsSection = () => {
           <h2 className="text-3xl md:text-4xl font-display font-bold">Beyond the Code</h2>
           <p className="text-muted-foreground mt-2">My passion for problem-solving extends to other areas.</p>
         </div>
-        <div className="max-w-2xl mx-auto bg-card p-8 rounded-lg border border-border/50 flex items-start gap-6 transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 transform hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+        <div className="max-w-2xl mx-auto bg-card/50 backdrop-blur-md p-8 rounded-lg border border-border/50 flex items-start gap-6 transition-all duration-300 hover:border-primary/80 hover:shadow-glow transform hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
           <div className="p-3 bg-primary/10 rounded-lg">
             <Scale className="w-8 h-8 text-primary" />
           </div>

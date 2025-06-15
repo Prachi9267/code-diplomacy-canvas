@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
@@ -35,7 +34,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled || isMenuOpen ? 'bg-card/80 backdrop-blur-sm border-b border-border/50' : 'bg-transparent'
+        scrolled || isMenuOpen ? 'bg-card/80 backdrop-blur-md border-b border-border/50' : 'bg-transparent'
       }`}
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">

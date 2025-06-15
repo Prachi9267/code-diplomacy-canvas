@@ -1,9 +1,8 @@
-
 import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-card border-t border-border/50 py-12">
+    <footer id="contact" className="bg-transparent border-t border-border/50 py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-2xl md:text-3xl font-display font-bold mb-4">Let's Connect!</h2>
         <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
