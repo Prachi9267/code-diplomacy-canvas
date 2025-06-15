@@ -16,7 +16,7 @@ const projects: {
     title: 'Amazon Clone',
     description: 'A feature-rich clone of the Amazon e-commerce platform, focusing on front-end replication and core functionalities.',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=800&auto=format&fit=crop',
+    image: '/lovable-uploads/7db5501e-d9af-4032-a8f9-a9dbb59a5a85.png',
   },
   {
     title: 'Personal Website v1',
