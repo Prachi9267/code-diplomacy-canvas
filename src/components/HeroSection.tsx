@@ -1,5 +1,7 @@
+
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin } from 'lucide-react';
+import FlowerBackground from './FlowerBackground';
 
 const HeroSection = () => {
     const scrollToSection = (id: string) => {
@@ -13,6 +15,7 @@ const HeroSection = () => {
     
     return (
         <section id="about" className="pt-32 relative overflow-hidden min-h-screen flex items-center justify-center">
+            <FlowerBackground />
             <div className="absolute inset-0 -z-10 bg-gradient-to-r from-primary/10 via-background to-secondary/15 bg-[length:200%_200%] animate-background-pan"></div>
             
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
