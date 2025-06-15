@@ -10,9 +10,9 @@ const Footer = () => {
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
         </p>
         <div className="flex justify-center items-center gap-6 mb-8">
-            <a href="mailto:your.email@example.com" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
+            <a href="mailto:prachi.gupta9267@gmail.com" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2">
                 <Mail className="w-5 h-5" />
-                <span className="font-sans">your.email@example.com</span>
+                <span className="font-sans">prachi.gupta9267@gmail.com</span>
             </a>
         </div>
         <div className="flex justify-center items-center gap-6 mb-8">
@@ -24,7 +24,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Your Name. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Prachi. All Rights Reserved.
         </p>
       </div>
     </footer>

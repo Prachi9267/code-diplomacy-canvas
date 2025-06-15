@@ -1,17 +1,22 @@
 
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
-const projects = [
+const projects: {
+  title: string;
+  description: string;
+  tags: string[];
+  image: string;
+  liveLink?: string;
+  githubLink?: string;
+}[] = [
   {
     title: 'Amazon Clone',
     description: 'A feature-rich clone of the Amazon e-commerce platform, focusing on front-end replication and core functionalities.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=800&auto=format&fit=crop',
-    liveLink: '#',
-    githubLink: '#',
   },
   {
     title: 'Personal Website v1',
@@ -44,16 +49,20 @@ const ProjectsSection = () => {
                   ))}
                 </div>
                 <div className="mt-auto flex justify-end gap-4">
-                  <Button variant="outline" asChild>
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                      <Github className="mr-2 h-4 w-4" /> Code
+                  {project.githubLink && (
+                    <Button variant="outline" asChild>
+                      <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                        <Github className="mr-2 h-4 w-4" /> Code
+                      </a>
+                    </Button>
+                  )}
+                  {project.liveLink && (
+                    <Button asChild>
+                     <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
                     </a>
                   </Button>
-                  <Button asChild>
-                   <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
-                  </a>
-                </Button>
+                  )}
                 </div>
               </div>
             </Card>
