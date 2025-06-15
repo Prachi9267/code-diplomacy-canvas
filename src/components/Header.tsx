@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
@@ -39,7 +40,7 @@ const Header = () => {
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#" onClick={(e) => {e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});}} className="text-2xl font-display font-bold text-primary">
+          <a href="#" onClick={(e) => {e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});}} className="text-2xl font-display font-bold text-foreground">
             Prachi
           </a>
 
@@ -56,7 +57,7 @@ const Header = () => {
           </div>
           
           <div className="hidden md:block">
-            <Button onClick={() => scrollToSection('contact')}>
+            <Button variant="secondary" onClick={() => scrollToSection('contact')}>
               Contact Me
             </Button>
           </div>
@@ -81,7 +82,7 @@ const Header = () => {
                 {link.title}
               </button>
             ))}
-            <Button onClick={() => scrollToSection('contact')} className="w-full mt-2">
+            <Button variant="secondary" onClick={() => scrollToSection('contact')} className="w-full mt-2">
               Contact Me
             </Button>
           </div>
