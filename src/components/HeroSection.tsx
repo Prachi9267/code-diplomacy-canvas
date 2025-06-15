@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin } from 'lucide-react';
 import FlowerBackground from './FlowerBackground';
@@ -19,24 +20,27 @@ const HeroSection = () => {
             
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="flex flex-col items-center justify-center text-center">
-                    <div className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-                        <h1 className="text-4xl md:text-6xl font-display font-extrabold text-foreground mb-4">
-                            Hi, I'm Prachi
-                        </h1>
-                        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-                            A second-year Computer Science and AI student at <span className="text-primary font-semibold">Indira Gandhi Delhi Technical University For Women, Delhi</span>. I'm passionate about building impactful technology and currently exploring web development, DSA, and Python.
-                        </p>
-                        <div className="flex justify-center items-center gap-4 mb-8">
-                            <Button onClick={() => scrollToSection('projects')}>View My Work</Button>
-                            <Button variant="outline" onClick={() => scrollToSection('contact')}>Get In Touch</Button>
-                        </div>
-                        <div className="flex justify-center items-center gap-6">
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                                <Github className="w-6 h-6" />
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                                <Linkedin className="w-6 h-6" />
-                            </a>
+                    <div className="relative">
+                        <div className="absolute -inset-10 md:-inset-20 bg-primary/20 rounded-full blur-3xl opacity-60 animate-subtle-pulse" style={{ animationDuration: '12s' }}></div>
+                        <div className="relative animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+                            <h1 className="text-4xl md:text-6xl font-display font-extrabold text-foreground mb-4">
+                                Hi, I'm Prachi
+                            </h1>
+                            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
+                                A second-year Computer Science and AI student at <span className="text-primary font-semibold">Indira Gandhi Delhi Technical University For Women, Delhi</span>. I'm passionate about building impactful technology and currently exploring web development, DSA, and Python.
+                            </p>
+                            <div className="flex justify-center items-center gap-4 mb-8">
+                                <Button onClick={() => scrollToSection('projects')}>View My Work</Button>
+                                <Button variant="outline" onClick={() => scrollToSection('contact')}>Get In Touch</Button>
+                            </div>
+                            <div className="flex justify-center items-center gap-6">
+                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                                    <Github className="w-6 h-6" />
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                                    <Linkedin className="w-6 h-6" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
