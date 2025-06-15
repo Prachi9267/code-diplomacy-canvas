@@ -23,9 +23,6 @@ const Footer = () => {
             <Linkedin className="w-6 h-6" />
           </a>
         </div>
-        <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Prachi. All Rights Reserved.
-        </p>
       </div>
     </footer>
   );
