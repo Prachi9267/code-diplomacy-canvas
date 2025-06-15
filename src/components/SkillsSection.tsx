@@ -1,12 +1,15 @@
 
-import { BrainCircuit, Code, Braces, FileCode } from 'lucide-react';
+import { BrainCircuit, Code, Braces, FileCode, GitMerge, Orbit, Binary } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const skills = [
   { icon: Code, name: 'HTML & CSS', description: 'Crafting responsive and beautiful web layouts.' },
   { icon: Braces, name: 'JavaScript', description: 'Building interactive and dynamic user experiences.' },
+  { icon: Orbit, name: 'React', description: 'Building modern, scalable web applications.'},
   { icon: FileCode, name: 'Python', description: 'Leveraging its power for scripting and AI experiments.' },
+  { icon: Binary, name: 'C++', description: 'Strong foundation in object-oriented programming.' },
   { icon: BrainCircuit, name: 'Data Structures', description: 'Understanding the fundamentals of efficient algorithms.' },
+  { icon: GitMerge, name: 'Git & GitHub', description: 'For version control and collaborative development.'}
 ];
 
 const SkillsSection = () => {
