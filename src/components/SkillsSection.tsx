@@ -1,15 +1,13 @@
 
-import { BrainCircuit, Code, Braces, FileCode, GitMerge, Orbit, Binary } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { BrainCircuit, Code, Braces, FileCode, Binary } from 'lucide-react';
+import { Card, CardHeader, CardTitle } from '@/components/ui/card';
 
 const skills = [
-  { icon: Code, name: 'HTML & CSS', description: 'Crafting responsive and beautiful web layouts.' },
-  { icon: Braces, name: 'JavaScript', description: 'Building interactive and dynamic user experiences.' },
-  { icon: Orbit, name: 'React', description: 'Building modern, scalable web applications.'},
-  { icon: FileCode, name: 'Python', description: 'Leveraging its power for scripting and AI experiments.' },
-  { icon: Binary, name: 'C++', description: 'Strong foundation in object-oriented programming.' },
-  { icon: BrainCircuit, name: 'Data Structures', description: 'Understanding the fundamentals of efficient algorithms.' },
-  { icon: GitMerge, name: 'Git & GitHub', description: 'For version control and collaborative development.'}
+  { icon: Code, name: 'HTML & CSS' },
+  { icon: Braces, name: 'JavaScript' },
+  { icon: FileCode, name: 'Python' },
+  { icon: BrainCircuit, name: 'Data Structures' },
+  { icon: Binary, name: 'C++' },
 ];
 
 const SkillsSection = () => {
@@ -29,9 +27,6 @@ const SkillsSection = () => {
                 </div>
                 <CardTitle className="font-display text-xl">{skill.name}</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{skill.description}</p>
-              </CardContent>
             </Card>
           ))}
         </div>
